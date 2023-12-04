@@ -1,4 +1,4 @@
-# Spicy-fi : Identification of Pests on Chili Plants  Using Leaf Image Analysis
+# Spicy-Fi : Identification of Pests on Chili Plants  Using Leaf Image Analysis
 
 ## Project Description
 
@@ -71,7 +71,7 @@ Untuk melakukan analisis lebih mendalam, kami memutuskan untuk menyusun ulang da
 
 
 #### 1. Metrics
-Evaluasi model menunjukkan hasil yang memuaskan dalam mengklasifikasikan jenis hama pada tanaman cabai. Akurasi model mencapai [nilai akurasi], precision sekitar [nilai precision], dan recall sekitar [nilai recall]. Hasil ini menunjukkan bahwa model memiliki kemampuan untuk memberikan prediksi positif dengan akurasi yang baik, dan mampu mengenali sebagian besar kasus positif secara keseluruhan. Dengan demikian, model dapat dianggap sebagai alat yang efektif dalam membantu petani mengidentifikasi dan menangani masalah kesehatan tanaman pada daun cabai.
+Evaluasi model menunjukkan hasil yang memuaskan dalam mengklasifikasikan jenis hama pada tanaman cabai. Akurasi model mencapai [95.4%], precision sekitar [95.6%], dan recall sekitar [95.4%]. Hasil ini menunjukkan bahwa model memiliki kemampuan untuk memberikan prediksi positif dengan akurasi yang baik, dan mampu mengenali sebagian besar kasus positif secara keseluruhan. Dengan demikian, model dapat dianggap sebagai alat yang efektif dalam membantu petani mengidentifikasi dan menangani masalah kesehatan tanaman pada daun cabai.
 
 
 
