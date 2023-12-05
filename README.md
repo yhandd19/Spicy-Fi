@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Spicy-Fi merupakan sebuah proyek computer vision yang bertujuan untuk mendeteksi hama pada tanaman cabai dengan memanfaatkan arsitektur ResNet-18. Melalui proyek ini, kami dapat mengidentifikasi beberapa jenis hama yang mungkin menyerang daun cabai, antara lain Leaf Curl, Leaf Spot, Powdery Mildew, dan serangan Whitefly, sekaligus melakukan klasifikasi terhadap daun yang masih dalam kondisi sehat. Tujuan utama Spicy-Fi adalah memberikan kontribusi pada edukasi mengenai penyakit-penyakit yang dapat menyerang tanaman cabai, sekaligus membantu para petani dalam mengidentifikasi dan mengatasi potensi masalah pada tanaman mereka.
+Spicy-Fi merupakan sebuah proyek computer vision yang bertujuan untuk mendeteksi hama pada tanaman cabai dengan memanfaatkan arsitektur ResNet. Melalui proyek ini, kami dapat mengidentifikasi beberapa jenis hama yang mungkin menyerang daun cabai, antara lain Leaf Curl, Leaf Spot, Powdery Mildew, dan serangan Whitefly, sekaligus melakukan klasifikasi terhadap daun yang masih dalam kondisi sehat. Tujuan utama Spicy-Fi adalah memberikan kontribusi pada edukasi mengenai penyakit-penyakit yang dapat menyerang tanaman cabai, sekaligus membantu para petani dalam mengidentifikasi dan mengatasi potensi masalah pada tanaman mereka.
 
 ## Layer 1
 ![Layer 1](./img//Layer1.png)
@@ -78,17 +78,17 @@ Evaluasi model menunjukkan hasil yang memuaskan dalam mengklasifikasikan jenis h
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CNN | 300 |  0.001 | 16 | SGD | 0.492 | 85.3% | 85.3% |
-| Resnet-18 | 300 | 0.001 | 16 | SGD | 0.207 | 95.6% | 95.4% |
+| Resnet | 300 | 0.001 | 16 | SGD | 0.207 | 95.6% | 95.4% |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
 
 #### 2. Ablation Study
-Mengubah jumlah Blok Residual dengan yang sebelumnya berjumlah 18 menjadi hanya 6 Blok Residual. Selanjutnya adalah penambahan dropout layer dengan rincian sebagai berikut:
+Penambahan dropout layer dengan rincian sebagai berikut:
 
 | model | Dropout Layer | accuracy | accuracy |
 | --- | --- | --- | --- | 
-| Resnet-18 | 0.3 | 77.43% | 95.636% |
-| Resnet-18 | 0.5 | 72.11% | 88.7% |
+| Resnet | 0.3 | 77.43% | 95.636% |
+| Resnet | 0.5 | 72.11% | 88.7% |
 | ... | ... | ... | ... | 
 
 #### 3. Training/Validation Curve
