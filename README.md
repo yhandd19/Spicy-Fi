@@ -83,11 +83,20 @@ Evaluasi model menunjukkan hasil yang memuaskan dalam mengklasifikasikan jenis h
 
 
 #### 2. Ablation Study
+
+Penambahan konvolusi layer dan normalisasi batch pada layer 2 dan 3 dengan rincian sebagai berikut:
+
+| model |Add_Conv_NormBatch | accuracy_train | accuracy_val |
+| --- | --- | --- | --- | 
+| Resnet | ✓ | 83.810% | 95.636% |
+| Resnet | X | 81.11% | 93.7% |
+| ... | ... | ... | ... | 
+
 Penambahan dropout layer dengan rincian sebagai berikut:
 
-| model | Dropout Layer | accuracy | accuracy |
+| model | Dropout Layer | accuracy_train | accuracy_val |
 | --- | --- | --- | --- | 
-| Resnet | 0.3 | 77.43% | 95.636% |
+| Resnet | 0.3 | 83.810% | 95.636% |
 | Resnet | 0.5 | 72.11% | 88.7% |
 | ... | ... | ... | ... | 
 
