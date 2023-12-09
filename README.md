@@ -145,7 +145,7 @@ Provide all links that support this final project, i.e., papers, GitHub reposito
 - Link: https://github.com/NishaniKasineshan/DeepLearning-Projects/blob/main/Image_classification_using_Resnet18.ipynb
 - Link: https://www.researchgate.net/publication/353803706_Klasifikasi_citra_makanannon_makanan_menggunakan_metode_Transfer_Learning_dengan_model_Residual_Network
 - Link: https://www.sciencedirect.com/science/article/pii/S1877050921011054
-
+- Link: https://blog.paperspace.com/writing-resnet-from-scratch-in-pytorch/
 How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 
