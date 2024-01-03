@@ -83,11 +83,20 @@ Evaluasi model menunjukkan hasil yang memuaskan dalam mengklasifikasikan jenis h
 
 
 #### 2. Ablation Study
+
+Penambahan konvolusi layer dan normalisasi batch pada layer 2 dan 3 dengan rincian sebagai berikut:
+
+| model |Add_Conv_NormBatch | accuracy_train | accuracy_val |
+| --- | --- | --- | --- | 
+| Resnet | ✓ | 83.810% | 95.636% |
+| Resnet | X | 81.11% | 93.7% |
+| ... | ... | ... | ... | 
+
 Penambahan dropout layer dengan rincian sebagai berikut:
 
-| model | Dropout Layer | accuracy | accuracy |
+| model | Dropout Layer | accuracy_train | accuracy_val |
 | --- | --- | --- | --- | 
-| Resnet | 0.3 | 77.43% | 95.636% |
+| Resnet | 0.3 | 83.810% | 95.636% |
 | Resnet | 0.5 | 72.11% | 88.7% |
 | ... | ... | ... | ... | 
 
@@ -135,7 +144,8 @@ Provide a link to your short video, that should includes the project background 
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: https://github.com/NishaniKasineshan/DeepLearning-Projects/blob/main/Image_classification_using_Resnet18.ipynb
 - Link: https://www.researchgate.net/publication/353803706_Klasifikasi_citra_makanannon_makanan_menggunakan_metode_Transfer_Learning_dengan_model_Residual_Network
-
+- Link: https://www.sciencedirect.com/science/article/pii/S1877050921011054
+- Link: https://blog.paperspace.com/writing-resnet-from-scratch-in-pytorch/
 How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 
